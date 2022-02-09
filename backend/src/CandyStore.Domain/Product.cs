@@ -9,12 +9,12 @@ namespace CandyStore.Domain
 {
     public class Product : Entity, IAggregateRoot
     {
-        public Product(string name, string description, decimal price, string urlImage)
+        public Product(string name, string description, decimal price, string image)
         {
             Name = name;
             Description = description;
             Price = price;
-            UrlImage = urlImage;
+            Image = image;
         }
 
         public string Name { get; private set; }
@@ -23,6 +23,6 @@ namespace CandyStore.Domain
 
         public decimal Price { get; private set; }
 
-        public string UrlImage { get; private set; }
+        public string Image { get; private set; }
     }
 }

@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Application", "01-Applic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandyStore.Api", "src\CandyStore.Api\CandyStore.Api.csproj", "{19508A54-B2D4-4E17-9516-CB037D9D1AAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandyStore.Application", "src\CandyStore.Application\CandyStore.Application.csproj", "{5C998F2D-0586-4679-A878-309FB74ED0E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{19508A54-B2D4-4E17-9516-CB037D9D1AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19508A54-B2D4-4E17-9516-CB037D9D1AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19508A54-B2D4-4E17-9516-CB037D9D1AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C998F2D-0586-4679-A878-309FB74ED0E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C998F2D-0586-4679-A878-309FB74ED0E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C998F2D-0586-4679-A878-309FB74ED0E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C998F2D-0586-4679-A878-309FB74ED0E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{C92750CB-3CA9-48E1-84FF-800FABCB4887} = {BC158113-A195-41FE-9731-0AB4E4D47F2E}
 		{6E7A995F-222F-4653-98C1-6F55CDE38DE6} = {154D697E-11A6-44AC-8D6F-37F00805C530}
 		{19508A54-B2D4-4E17-9516-CB037D9D1AAD} = {6ACEF390-5F4E-4636-B2D4-6AF4C155C521}
+		{5C998F2D-0586-4679-A878-309FB74ED0E2} = {E6C32BA5-863D-4BAD-8D84-B6AE94FD7855}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9AB6C16E-9705-4175-8025-C929B45925D9}
