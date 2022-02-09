@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandyStore.Core", "src\CandyStore.Core\CandyStore.Core.csproj", "{7E18370E-0CFD-4EB5-80D9-7559A5110525}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99-Core", "99-Core", "{A03EF72D-E591-4EB2-83CC-60D1EDD034E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Data", "03-Data", "{BC158113-A195-41FE-9731-0AB4E4D47F2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandyStore.Data", "src\CandyStore.Data\CandyStore.Data.csproj", "{C92750CB-3CA9-48E1-84FF-800FABCB4887}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Domain", "02-Domain", "{154D697E-11A6-44AC-8D6F-37F00805C530}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandyStore.Domain", "src\CandyStore.Domain\CandyStore.Domain.csproj", "{6E7A995F-222F-4653-98C1-6F55CDE38DE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-Access", "00-Access", "{6ACEF390-5F4E-4636-B2D4-6AF4C155C521}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Application", "01-Application", "{E6C32BA5-863D-4BAD-8D84-B6AE94FD7855}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandyStore.Api", "src\CandyStore.Api\CandyStore.Api.csproj", "{19508A54-B2D4-4E17-9516-CB037D9D1AAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E18370E-0CFD-4EB5-80D9-7559A5110525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E18370E-0CFD-4EB5-80D9-7559A5110525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E18370E-0CFD-4EB5-80D9-7559A5110525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E18370E-0CFD-4EB5-80D9-7559A5110525}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C92750CB-3CA9-48E1-84FF-800FABCB4887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C92750CB-3CA9-48E1-84FF-800FABCB4887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C92750CB-3CA9-48E1-84FF-800FABCB4887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C92750CB-3CA9-48E1-84FF-800FABCB4887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E7A995F-222F-4653-98C1-6F55CDE38DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E7A995F-222F-4653-98C1-6F55CDE38DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E7A995F-222F-4653-98C1-6F55CDE38DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E7A995F-222F-4653-98C1-6F55CDE38DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19508A54-B2D4-4E17-9516-CB037D9D1AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19508A54-B2D4-4E17-9516-CB037D9D1AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19508A54-B2D4-4E17-9516-CB037D9D1AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19508A54-B2D4-4E17-9516-CB037D9D1AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E18370E-0CFD-4EB5-80D9-7559A5110525} = {A03EF72D-E591-4EB2-83CC-60D1EDD034E8}
+		{C92750CB-3CA9-48E1-84FF-800FABCB4887} = {BC158113-A195-41FE-9731-0AB4E4D47F2E}
+		{6E7A995F-222F-4653-98C1-6F55CDE38DE6} = {154D697E-11A6-44AC-8D6F-37F00805C530}
+		{19508A54-B2D4-4E17-9516-CB037D9D1AAD} = {6ACEF390-5F4E-4636-B2D4-6AF4C155C521}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AB6C16E-9705-4175-8025-C929B45925D9}
+	EndGlobalSection
+EndGlobal
