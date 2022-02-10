@@ -9,7 +9,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="AutoMapper\" />
+    <ProjectReference Include="..\CandyStore.Data\CandyStore.Data.csproj" />
+    <ProjectReference Include="..\CandyStore.Domain\CandyStore.Domain.csproj" />
   </ItemGroup>
 
 </Project>

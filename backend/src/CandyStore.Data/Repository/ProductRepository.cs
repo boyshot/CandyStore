@@ -6,6 +6,6 @@ namespace CandyStore.Data
 {
     public class ProductRepository : RepositoryBase<Product>, IProductRepository
     {
-        public ProductRepository(DbContext context) : base(context) { }
+        public ProductRepository(ApplicationContext context) : base(context) { }
     }
 }
